@@ -34,8 +34,21 @@ let carro = {
 let frutas=['manzana','banano','uvas']
 //function
 function saludar(){}
-//
-//
-//
+//--------------------------------------------------------------------
+//Tipo String
+//--------------------------------------------------------------------
+let String1 = 'Hola mundo'
+let String2 ="JavaScript es genial"
+let String3 =`${String1} feliz :)`
+
+console.log(String1)
+console.log(String2)
+console.log(String3)
+//----------------------------------------------------------------------
+let frase = 'JavaScript es Extremadamente Genial'
+console.log(frase.length) //contamos caracteres más espacios
+console.log(frase.toLowerCase())
+console.log(frase.toUpperCase())
+console.log(frase.substring(0,10))
 
 
