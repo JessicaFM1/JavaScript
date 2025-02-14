@@ -51,4 +51,20 @@ console.log(frase.toLowerCase())
 console.log(frase.toUpperCase())
 console.log(frase.substring(0,10))
 
+//-----------------------------------------------------------------------
+//Operaciones Aritmeticas 
+//-----------------------------------------------------------------------
 
+//1. Tipo entero y decimal
+const entero = 42
+const decimal = 3.14
+console.log(typeof entero, typeof decimal)
+//------------------------------------------------------------------------
+//2. Notacion científica
+const cientifico= 5e3 //5000
+console.log(cientifico)
+//----------------------------------------------------------------------
+//3. Infinity y NaN
+const infinito = Infinity
+const noEsUnNumero = NaN
+//------------------------------------------------------------------------
