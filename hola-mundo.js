@@ -44,7 +44,11 @@ let String3 =`${String1} feliz :)`
 console.log(String1)
 console.log(String2)
 console.log(String3)
+
+let String4= String1+' '+String2
+
 //----------------------------------------------------------------------
+
 let frase = 'JavaScript es Extremadamente Genial'
 console.log(frase.length) //contamos caracteres más espacios
 console.log(frase.toLowerCase())
@@ -68,3 +72,27 @@ console.log(cientifico)
 const infinito = Infinity
 const noEsUnNumero = NaN
 //------------------------------------------------------------------------
+//Operaciones Aritmeticas
+//Suma,Resta,Multiplicacion y Division
+const suma = 3+4
+const resta = 4-4
+const multiplicacion=4*7
+const division=16/2
+// Modulo y Exponencial
+const modulo = 15%8
+const exponencial = 2**3
+
+//Precisiòm
+const resultado=0.1 + 0.2
+console.log(resultado)
+console.log(resultado.toFixed(1))
+console.log(resultado===0.3)
+
+//Operaciones Avanzadas
+const raizCuadrada=Math.sqrt(16)
+const valorAbsoluto=Math.abs(-7)
+const aleatorio=Math.random()
+console.log(raizCuadrada)
+console.log(valorAbsoluto)
+console.log(aleatorio)
+
