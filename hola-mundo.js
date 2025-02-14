@@ -37,15 +37,15 @@ function saludar(){}
 //--------------------------------------------------------------------
 //Tipo String
 //--------------------------------------------------------------------
-let String1 = 'Hola mundo'
-let String2 ="JavaScript es genial"
-let String3 =`${String1} feliz :)`
+let string1 = 'Hola mundo'
+let string2 ="JavaScript es genial"
+let string3 =`${string1} feliz :)`
 
-console.log(String1)
-console.log(String2)
-console.log(String3)
+console.log(string1)
+console.log(string2)
+console.log(string3)
 
-let String4= String1+' '+String2
+let string4= string1+' '+string2
 
 //----------------------------------------------------------------------
 
@@ -95,4 +95,56 @@ const aleatorio=Math.random()
 console.log(raizCuadrada)
 console.log(valorAbsoluto)
 console.log(aleatorio)
+console.log('--------------------------------------------------')
+//Conversion de Tipos: Type Casting y Coerción
+//Explicit Type Casting
+const string='42'
+const integer = parseInt(string)
+console.log(typeof integer)
 
+const stringDecimal = '3.14'
+const float = parseFloat(stringDecimal)
+console.log(float)
+console.log(typeof float)
+
+const binary='1010'
+const decimal1 = parseInt(binary,2)
+console.log(decimal1)
+console.log(typeof decimal1)
+
+//Implicit Type Casting 
+//-----------------------------------------
+console.log('--------------------------------------')
+const sum = '5'+3
+console.log(sum)
+
+const sumWithBoolean='3'+true
+console.log(sumWithBoolean)
+
+const sumWithNumber=2+true
+console.log(sumWithNumber)
+
+console.log('-------------------------------------------------')
+const stringValue = '10'
+const numberValue = 10
+const booleanValue = true
+
+console.log(stringValue + stringValue) //CONCATENA
+console.log(stringValue + numberValue) //CONCATENA
+console.log(stringValue + booleanValue) //CONCATENA
+
+console.log(numberValue + stringValue) //CONCATENA
+console.log(numberValue + numberValue) //SUMA
+console.log(numberValue + booleanValue) //SUMA
+
+console.log(booleanValue + stringValue) //CONCATENA
+console.log(booleanValue + numberValue) //SUMA
+console.log(booleanValue + booleanValue) //SUMA
+
+//----------------------------------------
+console.log('------EJERCICIO------')
+const numero1 = '596'
+const numeroConvertido = parseInt(numero1)
+
+console.log(typeof numero1)
+console.log(typeof numeroConvertido)
