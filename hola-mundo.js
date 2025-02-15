@@ -148,3 +148,5 @@ const numeroConvertido = parseInt(numero1)
 
 console.log(typeof numero1)
 console.log(typeof numeroConvertido)
+
+
