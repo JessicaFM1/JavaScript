@@ -37,7 +37,7 @@ function saludar(){}
 //
 //
 //
-//Precisiòm
+//Precisiòn
 const resultado=0.1 + 0.2
 console.log(resultado)
 console.log(resultado.toFixed(1))
